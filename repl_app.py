@@ -9,7 +9,7 @@ from requests_oauthlib import OAuth2Session
 CLIENT_ID = os.getenv('CLIENT_ID')
 CLIENT_SECRET = os.getenv('CLIENT_SECRET')
 APP_SECRET = os.getenv('APP_SECRET', 'development')
-REPO_OWNER = os.getenv('REPO_OWNER', 'undef1nd')
+REPO_OWNER = os.getenv('REPO_OWNER', 'odynodyn')
 REPO_NAME = os.getenv('REPO_NAME', 'self-replicating-repository')
 
 API_BASE_URL = 'https://api.github.com'
